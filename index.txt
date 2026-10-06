@@ -1,0 +1,54 @@
+Problem-1-----
+pwd
+mkdir ITEC111-Jovellanos
+cd ITEC111-Jovellanos
+mkdir Problem-1
+cd Problem-1
+git init
+touch index.html
+git add index.html
+git commit -m “Added file”
+git branch -m main
+git remote add origin main <URL>
+git push -u origin main
+git branch feature-branch
+touch style.css
+git add style.css
+git commit -m “Added Stylesheet”
+git push
+git checkout feature-branch
+git pull origin main
+
+mkdir Problem-2----
+cd Problem-2
+git init
+touch index.html
+git add index.html
+git commit -m "Track index.html"
+touch style.css
+git add style.css
+git commit -m "Track style.css"
+git add index.html
+git commit -m "Added Button Click Me"
+git add style.css
+git commit -m "Added Styling for Button Click Me"
+git add index.html
+git add style.css
+git commit -m "Added new Button Click Here and Styling for Button Click Here"
+git add .
+git commit -m "Added New Button Click This with Simple Style"
+git log --oneline
+git reset --hard HEAD~<No.>
+gir reset <commit ID>
+git log –oneline
+
+Problem 3:------
+mkdir Problem-3
+cd Problem-3
+git init
+touch index.html
+git add index.html
+git commit -m "Added index.html"
+git branch -m main
+git remote add origin <URL>
+git push -u origin main
